@@ -1,7 +1,7 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-       "icon": "images/iconSmall.png",
+       "icon": "images/iconSmall.png"
        "category": "message"
     },
     "type": "REST",
@@ -21,7 +21,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://twilio-sfmc.herokuapp.com/journeybuilder/execute",
+            "url": "https://twilio-sfmc.herokuapp.com/journeybuilder/execute",  
             "verb": "POST",
             "body": "",
             "format": "json",
