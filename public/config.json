@@ -24,9 +24,12 @@
             "url": "https://customtestapp.herokuapp.com/journeybuilder/execute/",  
             "verb": "POST",
             "body": "",
-            "format": "json",
+              "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 100000,
+            "retryCount": 1,
+            "retryDelay": 10000,
+            "concurrentRequests": 5
         }
     },
     "configurationArguments": {
@@ -37,7 +40,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 3000
        },
        "publish": {
            "url": "https://customtestapp.herokuapp.com/journeybuilder/publish/",
@@ -45,7 +48,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 3000
        },
        "validate": {
            "url": "https://customtestapp.herokuapp.com/journeybuilder/validate/",
@@ -53,7 +56,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 3000
        },
        "stop": {
            "url": "https://customtestapp.herokuapp.com/journeybuilder/stop",
@@ -61,7 +64,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 3000
        }
     },
     "wizardSteps": [
