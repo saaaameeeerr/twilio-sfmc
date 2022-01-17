@@ -35,7 +35,7 @@
     "configurationArguments": {
       "applicationExtensionKey": "dc997106-142a-4ba5-8196-1315c4832df9",
        "save": {
-           "url": "https://customtestapp.herokuapp.com/journeybuilder/save",
+           "url": "https://customtestapp.herokuapp.com/journeybuilder/save/",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -43,7 +43,7 @@
             "timeout": 3000
        },
        "publish": {
-           "url": "https://customtestapp.herokuapp.com/journeybuilder/publish",
+           "url": "https://customtestapp.herokuapp.com/journeybuilder/publish/",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -51,7 +51,7 @@
             "timeout": 3000
        },
        "validate": {
-           "url": "https://customtestapp.herokuapp.com/journeybuilder/validate",
+           "url": "https://customtestapp.herokuapp.com/journeybuilder/validate/",
             "verb": "POST",
             "body": "",
             "format": "json",
