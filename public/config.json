@@ -1,4 +1,4 @@
-{console.log(conf.js1);
+{
     "workflowApiVersion": "1.1",
     "metaData": {
        "icon": "images/iconSmall.png",
