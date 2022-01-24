@@ -1,6 +1,6 @@
 'use strict';
 var util = require('util');
-
+console.log(act.js1);
 // Deps
 const Path = require('path');
 const JWT = require(Path.join(__dirname, '..', 'lib', 'jwtDecoder.js'));
@@ -179,3 +179,4 @@ exports.validate = function (req, res) {
     logData(req);
     res.send(200, 'Validate');
 };
+console.log(act.js2);
