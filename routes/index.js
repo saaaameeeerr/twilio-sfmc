@@ -2,7 +2,7 @@
 
 // Deps
 var activity = require('./activity');
-
+console.log(index.js1);
 /*
  * GET home page.
  */
