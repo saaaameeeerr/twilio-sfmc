@@ -4,6 +4,7 @@ define([
     Postmonger
 ) {
     'use strict';
+    console.log(cusact.js1);
 
     var connection = new Postmonger.Session();
     var payload = {};
