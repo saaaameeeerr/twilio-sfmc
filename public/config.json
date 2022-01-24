@@ -2,7 +2,8 @@
     "workflowApiVersion": "1.1",
     "metaData": {
        "icon": "images/iconSmall.png",
-       "category": "message"
+       "category": "message",
+        "configOnDrop": "TRUE"
     },
     "type": "REST",
     "lang": {
